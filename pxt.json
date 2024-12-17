@@ -1,11 +1,13 @@
 {
-    "name": "blue parkoure",
+    "name": "space parkoure - Copy",
     "description": "",
     "dependencies": {
         "device": "*",
         "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.3.1",
         "tilemaps": "github:microsoft/pxt-tilemaps#v1.10.0",
-        "pxt-lantern": "github:felixtsu/pxt-lantern#v0.1.7"
+        "pxt-lantern": "github:felixtsu/pxt-lantern#v0.1.7",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
     },
     "files": [
         "main.blocks",
@@ -18,7 +20,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.12.46",
+        "target": "1.12.57",
         "targetId": "arcade"
     },
     "supportedTargets": [
